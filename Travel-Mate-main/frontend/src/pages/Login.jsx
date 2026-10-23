@@ -74,7 +74,7 @@ const Login = () => {
               <div className="relative group">
                 <label 
                   htmlFor="email" 
-                  className={`absolute left-4 transition-all duration-300 pointer-events-none ${
+                  className={`absolute left-12 transition-all duration-300 pointer-events-none ${
                     focused.email || formData.email
                       ? 'top-2 text-xs text-blue-600 dark:text-blue-400 font-medium'
                       : 'top-4 text-sm text-gray-500 dark:text-gray-400'
@@ -107,7 +107,7 @@ const Login = () => {
               <div className="relative group">
                 <label 
                   htmlFor="password" 
-                  className={`absolute left-4 transition-all duration-300 pointer-events-none ${
+                  className={`absolute left-12 transition-all duration-300 pointer-events-none ${
                     focused.password || formData.password
                       ? 'top-2 text-xs text-blue-600 dark:text-blue-400 font-medium'
                       : 'top-4 text-sm text-gray-500 dark:text-gray-400'
@@ -187,4 +187,3 @@ const Login = () => {
 };
 
 export default Login;
-

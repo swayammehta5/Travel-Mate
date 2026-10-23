@@ -102,7 +102,7 @@ const Register = () => {
               <div className="relative group">
                 <label 
                   htmlFor="name" 
-                  className={`absolute left-4 transition-all duration-300 pointer-events-none ${
+                  className={`absolute left-12 transition-all duration-300 pointer-events-none ${
                     focused.name || formData.name
                       ? 'top-2 text-xs text-purple-600 dark:text-purple-400 font-medium'
                       : 'top-4 text-sm text-gray-500 dark:text-gray-400'
@@ -134,7 +134,7 @@ const Register = () => {
               <div className="relative group">
                 <label 
                   htmlFor="email" 
-                  className={`absolute left-4 transition-all duration-300 pointer-events-none ${
+                  className={`absolute left-12 transition-all duration-300 pointer-events-none ${
                     focused.email || formData.email
                       ? 'top-2 text-xs text-purple-600 dark:text-purple-400 font-medium'
                       : 'top-4 text-sm text-gray-500 dark:text-gray-400'
@@ -167,7 +167,7 @@ const Register = () => {
               <div className="relative group">
                 <label 
                   htmlFor="password" 
-                  className={`absolute left-4 transition-all duration-300 pointer-events-none ${
+                  className={`absolute left-12 transition-all duration-300 pointer-events-none ${
                     focused.password || formData.password
                       ? 'top-2 text-xs text-purple-600 dark:text-purple-400 font-medium'
                       : 'top-4 text-sm text-gray-500 dark:text-gray-400'
@@ -222,7 +222,7 @@ const Register = () => {
               <div className="relative group">
                 <label 
                   htmlFor="confirmPassword" 
-                  className={`absolute left-4 transition-all duration-300 pointer-events-none ${
+                  className={`absolute left-12 transition-all duration-300 pointer-events-none ${
                     focused.confirmPassword || formData.confirmPassword
                       ? 'top-2 text-xs text-purple-600 dark:text-purple-400 font-medium'
                       : 'top-4 text-sm text-gray-500 dark:text-gray-400'
@@ -329,4 +329,3 @@ const Register = () => {
 };
 
 export default Register;
-
